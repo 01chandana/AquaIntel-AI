@@ -1,0 +1,109 @@
+{
+  "dataset": "Kaggle Pump Sensor Data",
+  "target": "machine_status",
+  "sensors_used": [
+    "sensor_00",
+    "sensor_01",
+    "sensor_02",
+    "sensor_03",
+    "sensor_04",
+    "sensor_05",
+    "sensor_06",
+    "sensor_07",
+    "sensor_08",
+    "sensor_09",
+    "sensor_10",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_16",
+    "sensor_17",
+    "sensor_18",
+    "sensor_19",
+    "sensor_20",
+    "sensor_21",
+    "sensor_22",
+    "sensor_23",
+    "sensor_24",
+    "sensor_25",
+    "sensor_26",
+    "sensor_27",
+    "sensor_28",
+    "sensor_29",
+    "sensor_30",
+    "sensor_31",
+    "sensor_32",
+    "sensor_33",
+    "sensor_34",
+    "sensor_35",
+    "sensor_36",
+    "sensor_37",
+    "sensor_38",
+    "sensor_39",
+    "sensor_40",
+    "sensor_41",
+    "sensor_42",
+    "sensor_43",
+    "sensor_44",
+    "sensor_45",
+    "sensor_46",
+    "sensor_47",
+    "sensor_48",
+    "sensor_49",
+    "sensor_50",
+    "sensor_51"
+  ],
+  "records": 220320,
+  "classification_report": {
+    "BROKEN": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "NORMAL": {
+      "precision": 0.99990283479486,
+      "recall": 0.99990283479486,
+      "f1-score": 0.99990283479486,
+      "support": 41167.0
+    },
+    "RECOVERING": {
+      "precision": 0.9986192613047981,
+      "recall": 0.9993091537132988,
+      "f1-score": 0.99896408839779,
+      "support": 2895.0
+    },
+    "accuracy": 0.9998184458968773,
+    "macro avg": {
+      "precision": 0.6661740320332193,
+      "recall": 0.6664039961693863,
+      "f1-score": 0.66628897439755,
+      "support": 44064.0
+    },
+    "weighted avg": {
+      "precision": 0.9997731200407906,
+      "recall": 0.9998184458968773,
+      "f1-score": 0.999795775143237,
+      "support": 44064.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      41163,
+      0,
+      4
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      2893
+    ]
+  ],
+  "note": "This predicts recorded machine status, not a validated seven-day failure probability. BROKEN examples are extremely rare."
+}
